@@ -18,16 +18,16 @@ class _GenerateCodePageState extends State<GenerateCodePage> {
       appBar: AppBar(
         backgroundColor: Colors.lightBlueAccent,
         title: const Text('Generate QR Code'),
-        actions: [
-          IconButton(
-            onPressed: () {
-              Navigator.popAndPushNamed(context, "/scan");
-            },
-            icon: const Icon(
-              Icons.qr_code_scanner,
-            ),
-          ),
-        ],
+        // actions: [
+        //   IconButton(
+        //     onPressed: () {
+        //       Navigator.popAndPushNamed(context, "/scan");
+        //     },
+        //     icon: const Icon(
+        //       Icons.qr_code_scanner,
+        //     ),
+        //   ),
+        // ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
