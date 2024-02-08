@@ -17,7 +17,7 @@ class _GenerateCodePageState extends State<GenerateCodePage> {
       backgroundColor: Colors.blueAccent,
       appBar: AppBar(
         backgroundColor: Colors.lightBlueAccent,
-        title: const Text('Generate QR Code'),
+        title: Center(child: const Text('Generate QR Code')),
         // actions: [
         //   IconButton(
         //     onPressed: () {
