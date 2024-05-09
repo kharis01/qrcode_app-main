@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         "/splash": (context) => const SplashScreen(),
         "/test": (context) => const Test(),
       },
-      initialRoute: "/scan",
+      initialRoute: "/test",
     );
   }
 }
